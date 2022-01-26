@@ -88,7 +88,7 @@ public class CCuenta {
 
 	/**
 	 * Método que permite actualizar o nome da conta
-	 * @param nombre
+	 * @param nombre Nome do titular da conta
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
@@ -104,7 +104,7 @@ public class CCuenta {
 
 	/**
 	 * Método que permite actualizar a conta
-	 * @param cuenta
+	 * @param cuenta Número de conta
 	 */
 	public void setCuenta(String cuenta) {
 		this.cuenta = cuenta;
@@ -120,7 +120,7 @@ public class CCuenta {
 
 	/**
 	 * Método que permite actualizar o saldo
-	 * @param saldo
+	 * @param saldo Saldo da conta
 	 */
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
@@ -136,7 +136,7 @@ public class CCuenta {
 
 	/**
 	 * Método que permite actualizar o tipo de interés
-	 * @param tipoInteres
+	 * @param tipoInteres Tipo de interés da conta
 	 */
 	public void setTipoInterés(double tipoInteres) {
 		this.tipoInteres = tipoInteres;
