@@ -9,7 +9,7 @@ public class CCuenta {
 	/**
 	 * Nome do titular da conta
 	 */
-	private String nombre;
+	private String nombre; 
 	
 	/**
 	 * Número de conta bancaria
@@ -34,17 +34,16 @@ public class CCuenta {
 
 	/**
 	 * Construtor para crear obxectos de tipo CCuenta
-	 * @param nom
-	 * @param cue
-	 * @param sal
-	 * @param tipo
-	 * @param tipoInt
+	 * @param nom Nome do titular da conta
+	 * @param cue Número de conta
+	 * @param sal Saldo da conta
+	 * @param tipo Tipo de interés da conta
 	 */
-	public CCuenta(String nom, String cue, double sal, double tipo, double tipoInt) {
+	public CCuenta(String nom, String cue, double sal, double tipo) {
 		nombre = nom;
 		cuenta = cue;
 		saldo = sal;
-		tipoInteres = tipoInt;
+		tipoInteres = tipo;
 	}
 	
 	/**
@@ -57,7 +56,7 @@ public class CCuenta {
 	
 	/**
 	 * Método que permite ingresar cartos na conta 
-	 * @param cantidad
+	 * @param cantidad Cantidade a ingresar na conta
 	 * @throws Exception se a cantidade a ingresar é menor que 0
 	 */
 	public void ingresar(double cantidad) throws Exception {
@@ -68,7 +67,7 @@ public class CCuenta {
 
 	/**
 	 * Método que permite retirar cartos da conta
-	 * @param cantidad
+	 * @param cantidad Cantidade a retirar da conta
 	 * @throws Exception se a cantidade é menor ou igual a 0 ou se a cantidade é maior ao saldo actual
 	 */
 	public void retirar(double cantidad) throws Exception {

@@ -29,7 +29,7 @@ public class Main {
 	private static CCuenta operativa_cuenta() {
 		CCuenta cuenta1;
 		double saldoActual;
-		cuenta1 = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0, 10);
+		cuenta1 = new CCuenta("Antonio López", "1000-2365-85-1230456789", 2500, 0);
 		saldoActual = cuenta1.estado();
 		System.out.println("O seu saldo actual é" + saldoActual);
 		return cuenta1;
