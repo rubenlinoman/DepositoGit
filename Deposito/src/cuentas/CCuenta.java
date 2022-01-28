@@ -1,6 +1,6 @@
 package cuentas;
 /**
- * Esta clase implementa unha conta bancaria coas súas principais funcions
+ * Esta clase implementa unha conta bancaria coas súas funcións principais
  * @author ruben
  * @version 1.0
  */
