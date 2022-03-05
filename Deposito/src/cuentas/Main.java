@@ -26,6 +26,11 @@ public class Main {
 		}
 	}
 
+	/**
+	 * Método para facer operacións coa conta
+	 * @param cantidad
+	 * @return
+	 */
 	private static CCuenta operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
 		double saldoActual;
