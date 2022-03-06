@@ -29,7 +29,7 @@ public class Main {
 	/**
 	 * Método para facer operacións coa conta
 	 * @param cantidad
-	 * @return
+	 * @return conta
 	 */
 	private static CCuenta operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
